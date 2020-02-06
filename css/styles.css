@@ -1,0 +1,11 @@
+@keyframes parpadeo {
+  from { opacity: 0; }
+}
+
+.cursor{
+  animation: parpadeo 0.7s infinite alternate;
+}
+
+.grande{
+  font-size: 5vh;
+}
