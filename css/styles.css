@@ -2,10 +2,37 @@
   from { opacity: 0; }
 }
 
+@keyframes bote {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px)
+  }
+}
+
 .cursor{
   animation: parpadeo 0.7s infinite alternate;
 }
 
 .grande{
   font-size: 5vh;
+}
+
+.contenedor-principal {
+  position: relative;
+}
+
+.flecha {
+  position: absolute;
+  bottom: 1rem;
+  color: white;
+  font-size: 2rem;
+  animation: bote 1s infinite alternate;
+  transition-timing-function: ease-in  ;
+}
+
+.contenido-pagina {
+  margin-top: 2rem;
+  min-height: 80vh;
 }
