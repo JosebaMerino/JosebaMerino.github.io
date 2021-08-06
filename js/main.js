@@ -1,4 +1,12 @@
-let cosas = [ 'programador de Angular 2', 'Joseba Merino Pina', 'muy trabajador', 'programador de Java', 'bastante majo'];
+let cosas = [
+  'programador',
+  'Joseba Merino Pina', 
+  'programador de Java',
+'programador de Spring Boot',
+'maquetador de HTML con CSS',
+'programador de Javascript',
+'maquetador de CSS',
+'maquetador de Bootstrap 4'];
 
 let numero = Math.round(Math.random() * (cosas.length - 1));
 console.log(numero);

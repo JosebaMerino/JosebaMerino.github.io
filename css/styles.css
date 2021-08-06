@@ -17,7 +17,7 @@
 }
 
 .grande{
-  font-size: 5vh;
+  font-size: 3rem;
 }
 
 .contenedor-principal {
@@ -36,5 +36,10 @@
 
 .contenido-pagina {
   margin-top: 2rem;
-  min-height: 80vh;
+  min-height: 25rem;
+}
+
+.container-colores {
+  min-height: 15rem;
+  padding: 5rem;
 }
